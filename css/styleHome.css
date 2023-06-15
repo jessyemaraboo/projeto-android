@@ -12,7 +12,7 @@
 
 @font-face {
   font-family:'idroid';
-  src: url('/Meus-Projetos/ProjetoSiteAndroid/fontes/idroid.otf') format(opentype);
+  src: url('/fontes/idroid.otf') format(opentype);
   font-weight: normal;
   font-style: normal;
 }
