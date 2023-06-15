@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Ubuntu&display=swap');
+
+:root{
+  --color0:#49F560;
+  --color1:#00DB1D;
+  --color2:#00A816;
+  --color3:#005C0C;
+  --color4:#0C4D15;
+  --color5:#ffff;
+  --color6:#000000;
+}
+
+@font-face {
+  font-family:'idroid';
+  src: url('/Meus-Projetos/ProjetoSiteAndroid/fontes/idroid.otf') format(opentype);
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  margin: auto;
+  font-family: 'Quicksand', sans-serif;
+  background-color: var(--color0);
+  width: 100%;
+}
+header{
+  background-image:linear-gradient(to bottom, var(--color4), var(--color3));
+  color: var(--color5);
+  padding-top: 40px;
+  text-align: center;
+  min-height: 150px; 
+  
+}
+header>h1{
+  font-family: 'Audiowide', cursive;
+  font-weight: 550;
+}
+
+header>h1:hover{
+  text-shadow: 1px 1px 1px var(--color1);
+  text-shadow: 2px 2px 5px var(--color1);
+}
+
+header p{
+  font-family: ubuntu;
+  text-shadow: -2px 1px 5px var(--color6);
+  font-size: 17px;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+nav{
+  background-color: var(--color4);
+  margin: 0;
+  
+}
+nav ul{
+  margin: 0;
+  list-style: none;
+  text-align: left;
+  border-top: 2px solid var(--color2);
+  border-bottom: 2px solid var(--color2);
+}
+nav ul li{
+  display: inline-block;
+  padding: 7px 7px 7px 7px ;
+  text-align: center;
+  margin-left: 5px;
+}
+
+nav ul a{
+  text-decoration: none;
+  color: var(--color5);
+  font-weight: 500;
+  font-family: ubuntu;
+}
+nav ul a:hover{
+  background-color: var(--color2);
+  margin: 0;
+  padding: 6px;
+  border-radius: 3px 3px 10px 10px;
+  color: var(--color5);
+  transition: ease-in-out 0.19s;
+  
+}
+main{
+  background-color: var(--color5);
+  width: 95%;
+  margin: auto;
+  padding: 13px ;
+  min-width: 30%;
+  max-width: 90%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.155);
+}
+main p{
+  line-height: 1.2em;
+  
+}
+main a{
+  background-color: var(--color1);
+  text-decoration: none;
+  color: var(--color5);
+  font-weight: 900;
+  padding: 1px;
+  border-radius: 5px;
+}
+section h1{
+  padding: 0;
+  margin: 0;
+  font-family: 'idroid';
+  font-size: 20px;
+  color: var(--color3);
+  text-shadow: 1px 1px 1.5px #00000039;
+  
+}
+section p{
+  text-indent: 25px;
+  text-align: justify;
+}
+article h3{
+  background-image: linear-gradient(to right, #00db1dbd, #49f56021);
+  border-radius: 5px;
+  padding: 4px;
+  font-family: 'idroid';
+  font-size: 15px;
+  color:var(--color4);
+  text-shadow: 1px 1px 1.5px #00000039;
+}
+
+article#article-4{
+  background-color: #49f560bb;
+  border-radius: 11px;
+  padding-bottom: 5px;
+  box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.202);
+}
+article#article-4 h4{
+  background-color: #0c4d15d9;
+  color: var(--color5);
+  border-radius: 11px 11px 0px 0px;
+  padding: 6px 6px 6px 10px;
+  margin: 0;
+}
+article#article-4 p{
+  margin-top: 10px;
+  padding: 0px 8px 0px 8px; 
+  
+}
+
+article#article-4 aside{
+  display: inline-block;
+  
+  margin: auto;
+}
+
+article#article-4 aside p{
+  margin: auto;
+  padding: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+article#article-4 .p-Aside3{
+  padding-bottom: 100px;
+}
+
+img{
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer{
+  background-color: var(--color4);
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  border-top: 1px solid var(--color1);
+
+}
+footer p{
+  color: var(--color5);
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 5px;
+  
+}
+div.video{
+  background-color: var(--color2);
+    margin: auto 20px 10px auto;
+    padding: 8px;
+    padding-bottom: 54%;
+    position: relative;
+    height: 2%;
+    width: 95.5%;
+    
+}
+div.video>iframe{
+  position: absolute;
+    top: 2%;
+    right: 2%;
+    left: 2.5%;
+    width: 95%;
+    height: 95%;
+}
