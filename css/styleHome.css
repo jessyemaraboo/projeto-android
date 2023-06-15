@@ -48,7 +48,8 @@ header p{
   font-weight: 600;
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 8px;
+  margin-bottom: 1px;
+  padding-bottom: 20px;
 }
 
 nav{
@@ -62,6 +63,8 @@ nav ul{
   text-align: left;
   border-top: 1px solid var(--color2);
   border-bottom: 1px solid var(--color2);
+  padding: 0;
+  
 }
 nav ul li{
   display: inline-block;
