@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 :root{
   --color0:#49F560;
@@ -10,16 +12,16 @@
   --color6:#000000;
 }
 
-@font-face {
+/*@font-face {
   font-family:'idroid';
-  src: url('fontes/idroid.otf') format(opentype);
+  src: url('/fontes/idroid.otf') format(opentype);
   font-weight: normal;
   font-style: normal;
-}
+}*/
 
 body{
   margin: auto;
-  font-family: 'Quicksand', sans-serif;
+  font-family:'Open Sans', sans-serif;
   background-color: var(--color0);
   width: 100%;
 }
@@ -113,7 +115,7 @@ main a{
 section h1{
   padding: 0;
   margin: 0;
-  font-family: 'idroid';
+  font-family: 'Zen Dots', cursive;
   font-size: 20px;
   color: var(--color3);
   text-shadow: 1px 1px 1.5px #00000039;
@@ -127,10 +129,10 @@ article h3{
   background-image: linear-gradient(to right, #00db1dbd, #49f56021);
   border-radius: 5px;
   padding: 4px;
-  font-family: 'idroid';
+  font-family: 'Zen Dots', cursive;
   font-size: 15px;
   color:var(--color4);
-  text-shadow: 1px 1px 1.5px #00000039;
+  text-shadow: 1px 1px 1.5px #fafafa39;
 }
 
 article#article-4{
@@ -154,7 +156,6 @@ article#article-4 p{
 
 article#article-4 aside{
   display: inline-block;
-  
   margin: auto;
 }
 
@@ -186,10 +187,10 @@ footer{
 }
 footer p{
   color: var(--color5);
-  font-family: 'Times New Roman', Times, serif;
+  font-family:'Open Sans', sans-serif;
   margin: 0;
   padding: 5px;
-  font-size: 14px;
+  font-size: 12px;
   
 }
 div.video{
