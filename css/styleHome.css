@@ -44,7 +44,7 @@ header>h1:hover{
 }
 
 header p{
-  font-family: ubuntu;
+  font-family: 'ubuntu';
   text-shadow: -2px 1px 5px var(--color6);
   font-size: 15px;
   font-weight: 600;
@@ -70,7 +70,7 @@ nav ul{
 }
 nav ul li{
   display: inline-block;
-  padding: 7px 7px 7px 7px ;
+  padding: 5px ;
   text-align: center;
   margin-left: 5px;
 }
@@ -79,7 +79,7 @@ nav ul a{
   text-decoration: none;
   color: var(--color5);
   font-weight: 500;
-  font-family: ubuntu;
+  font-family: 'ubuntu';
 }
 nav ul a:hover{
   background-color: var(--color2);
@@ -134,6 +134,31 @@ article h3{
   color:var(--color4);
   text-shadow: 1px 1px 1.5px #fafafa39;
 }
+img{
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.video{
+  background-color: var(--color2);
+    margin: auto 20px 10px auto;
+    padding: 8px;
+    padding-bottom: 54%;
+    position: relative;
+    height: 2%;
+    width: 95.5%;
+    
+}
+div.video>iframe{
+  position: absolute;
+    top: 2%;
+    right: 2%;
+    left: 2.5%;
+    width: 95%;
+    height: 95%;
+}
 
 article#article-4{
   background-color: #49f560bb;
@@ -170,13 +195,6 @@ article#article-4 .p-Aside3{
   padding-bottom: 100px;
 }
 
-img{
-  max-width: 100%;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 footer{
   background-color: var(--color4);
   margin: 0;
@@ -192,22 +210,4 @@ footer p{
   padding: 5px;
   font-size: 12px;
   
-}
-div.video{
-  background-color: var(--color2);
-    margin: auto 20px 10px auto;
-    padding: 8px;
-    padding-bottom: 54%;
-    position: relative;
-    height: 2%;
-    width: 95.5%;
-    
-}
-div.video>iframe{
-  position: absolute;
-    top: 2%;
-    right: 2%;
-    left: 2.5%;
-    width: 95%;
-    height: 95%;
 }
